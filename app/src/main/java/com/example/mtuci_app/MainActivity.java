@@ -1,12 +1,14 @@
 package com.example.mtuci_app;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.mtuci_app.Game.GuessTheAnimal;
+import com.example.mtuci_app.Practice.WordPractice;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,22 +30,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, WordPractice.class));
-            }
-        });
-
-        Button listeningButton = findViewById(R.id.buttonListening);
-        listeningButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Audition.class));
-            }
-        });
-
-        ImageView avatarButton = findViewById(R.id.imageAvatar);
-        avatarButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Profile.class));
             }
         });
     }

@@ -13,43 +13,37 @@
         android:theme="@style/Theme.Language_app"
         tools:targetApi="31">
         <activity
-            android:name=".Profile"
+            android:name=".Practice.WordPractice"
             android:exported="false" />
         <activity
-            android:name=".Audition"
+            android:name=".Game.GuessError"
             android:exported="false" />
         <activity
-            android:name=".WordPractice"
+            android:name=".Game.GuessSuccess"
             android:exported="false" />
         <activity
-            android:name=".GuessError"
+            android:name=".Game.GuessTheAnimal"
             android:exported="false" />
         <activity
-            android:name=".GuessSuccess"
+            android:name=".Sign_Login.Signup_second"
             android:exported="false" />
         <activity
-            android:name=".GuessTheAnimal"
+            android:name=".Sign_Login.Signup_first"
             android:exported="false" />
         <activity
-            android:name=".Signup_2"
+            android:name=".Sign_Login.Login"
             android:exported="false" />
         <activity
-            android:name=".Signup_1"
+            android:name=".Onboarding.LanguageSelect"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".Onboarding.Onboarding_third"
             android:exported="false" />
         <activity
-            android:name=".LanguageSelect"
+            android:name=".Onboarding.Onboarding_second"
             android:exported="false" />
         <activity
-            android:name=".Onboarding_3"
-            android:exported="false" />
-        <activity
-            android:name=".Onboarding_2"
-            android:exported="false" />
-        <activity
-            android:name=".Onboarding_1"
+            android:name=".Onboarding.Onboarding_first"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
