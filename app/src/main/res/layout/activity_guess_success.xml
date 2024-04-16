@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GuessGame.GuessSuccess">
+    tools:context=".Game.GuessSuccess">
 
     <Button
         style="@style/h6Medium"

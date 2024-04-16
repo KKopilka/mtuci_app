@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GuessGame.GuessTheAnimal">
+    tools:context=".Game.GuessTheAnimal">
 
     <Button
-        style="@style/h6Medium"
+        style="@style/selectBlueButton"
         android:id="@+id/buttonGuess"
-        android:layout_width="329dp"
-        android:layout_height="49dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/button_rounded_blue"
         android:fontFamily="@font/fredoka_semibold"
@@ -21,15 +19,17 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextGuess" />
 
     <EditText
+        style="@style/grayButton"
         android:id="@+id/editTextGuess"
         android:background="@drawable/rounded_rectangle_gray"
-        android:layout_width="334dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="36dp"
+        android:paddingStart="15dp"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
