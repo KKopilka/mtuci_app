@@ -24,4 +24,8 @@ public class Signup_second extends AppCompatActivity {
             }
         });
     }
+    public void onBackButtonClicked(View view) {
+        onBackPressed();
+    }
+
 }

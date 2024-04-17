@@ -33,4 +33,8 @@ public class Signup_first extends AppCompatActivity {
             }
         });
     }
+    public void onBackButtonClicked(View view) {
+        onBackPressed();
+    }
+
 }
